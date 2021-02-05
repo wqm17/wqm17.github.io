@@ -1,5 +1,5 @@
-name: Hank Quinlan, Horrible Cop
+theme: jekyll-theme-minimal
+name: Wang Qimeng, Tsinghua University
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-theme: jekyll-theme-minimal
