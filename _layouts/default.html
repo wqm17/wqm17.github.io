@@ -6,26 +6,31 @@
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<style>
-				.meanpage{
-					position:fixed;
-					top: 0;
-					left: 0;
-					width: 100%;
-					height: 100%;
-					min-width: 1000px;
-					z-index: -10;
-					zoom: 1;
-					background-color: rgba(97, 97, 97, 0);
-					background-image: url(https://cdn.jsdelivr.net/gh/wqm17/image//image/%E7%85%A7%E7%89%87%E5%9B%BE%E5%BA%93.jpg);
-					background-repeat: no-repeat;
-					background-size: cover;
-					-webkit-background-size: cover;
-					-o-background-size: cover;
-					background-position: center 0;
-				}
+				#login_background{ 
+                /* div位置及大小,所在堆叠层设置 */
+                position: fixed;
+                top:0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                min-width: 1000px;
+                z-index: -10;
+                /* 背景图片设置 */
+                background-image: url(https://cdn.jsdelivr.net/gh/wqm17/image//image/%E7%85%A7%E7%89%87%E5%9B%BE%E5%BA%93.jpg);
+                zoom: 1;
+                background-color: #ffff;
+                background-repeat: no-repeat;
+                background-position: center 0;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -o-background-size: cover;
+           		}
 			</style>
 		</head>
 		<body>
+			<div id="web_content">
+				<div id="login_background" alt="Copy from Microsoft Bing"></div>
+			</div> 
 			<div class="container">
 			{{ content }}
 			</div><!-- /.container -->
