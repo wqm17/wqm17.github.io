@@ -15,6 +15,7 @@ header:
       slug: /
     - name: 学习笔记
     - name: 个人博客
+    - name: 摄影作品
 
 footer:
   show_powered_by: true
