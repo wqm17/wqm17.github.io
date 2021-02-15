@@ -1,42 +1,34 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: 王启蒙的博客
 description: >- # this means to ignore newlines until "baseurl:"
   Bay is a minimal Jekyll Theme.
-baseurl: "/bay" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
+baseurl: "/wqm17.github.io" # the subpath of the site
+url: "https://wqm17.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
 header:
   pages:
-    - name: Home
+    - name: 主页
       slug: /
-    - name: Work
-    - name: Blog
+    - name: 学习笔记
+    - name: 个人博客
 
 footer:
   show_powered_by: true
   contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
+    - name: 邮箱/Email
+      value: wqm17@foxmail.com
+      link: mailto:wqm17@foxmail.com
+    - name: 微信/WeChat
       value: YourWeChatUsername
       link: "#"
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
+    - name: 微博/Weibo
+      link: https://weibo.com/u/3859616034
+      username: "@巴扎那个黑那个嘿嘿嘿"
     - name: RSS
       link: /feed.xml
 
