@@ -19,14 +19,14 @@ header:
 footer:
   show_powered_by: true
   contact:
-    - name: 邮箱/Email
+    - name: Email
       value: wqm17@foxmail.com
       link: mailto:wqm17@foxmail.com
-    - name: 微信/WeChat
-      value: YourWeChatUsername
+    - name: WeChat
+      value: A_Man_From_Earth
       link: "#"
   follow:
-    - name: 微博/Weibo
+    - name: Weibo
       link: https://weibo.com/u/3859616034
       username: "@巴扎那个黑那个嘿嘿嘿"
     - name: RSS
